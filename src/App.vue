@@ -1,15 +1,14 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="我把HellWorld组件的msg属性修改为这句话了"/>
+    <HelloWorld msg="我把HellWorld组件的msg属性修改为这句话了，将作为h1首先渲染，后面还有一大堆超链接"/>
     <test></test>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/HelloWorld.vue'  //引入
 import test from './components/test.vue'
-
 export default {
   name: 'App',
   components: {

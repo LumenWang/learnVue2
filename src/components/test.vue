@@ -8,7 +8,7 @@ export default {
     props:{
         msg:{
             type:String,
-            default:"test msg"
+            default:"啊啊啊啊啊"
         }
     },
     methods:{       //注意vue实例对象的每一个属性需要有冒号
